@@ -1,8 +1,16 @@
-package com.ECommerceAPI.ECommerceAPI;
+package com.ECommerceAPI.ECommerceAPI.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.ECommerceAPI.ECommerceAPI.model.Order;
+import com.ECommerceAPI.ECommerceAPI.model.Product;
+import com.ECommerceAPI.ECommerceAPI.model.User;
+import com.ECommerceAPI.ECommerceAPI.repository.OrderRepository;
+import com.ECommerceAPI.ECommerceAPI.repository.ProductRepository;
+import com.ECommerceAPI.ECommerceAPI.repository.UserRepository;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.HashSet;

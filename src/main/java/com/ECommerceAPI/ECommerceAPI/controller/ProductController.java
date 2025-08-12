@@ -1,6 +1,10 @@
-package com.ECommerceAPI.ECommerceAPI;
+package com.ECommerceAPI.ECommerceAPI.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.ECommerceAPI.ECommerceAPI.model.Product;
+import com.ECommerceAPI.ECommerceAPI.service.ProductService;
+
 import org.springframework.http.ResponseEntity;
 import java.util.List;
 

@@ -1,8 +1,11 @@
-package com.ECommerceAPI.ECommerceAPI;
+package com.ECommerceAPI.ECommerceAPI.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.ECommerceAPI.ECommerceAPI.model.Order;
+import com.ECommerceAPI.ECommerceAPI.service.OrderService;
 
 import java.util.List;
 import java.util.Set;
